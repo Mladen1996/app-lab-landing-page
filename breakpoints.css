@@ -1,0 +1,374 @@
+
+
+
+@media only screen and (min-width: 1500px) {
+    .main-section{
+        max-width: 100%;
+        height: 85vh;
+        background-size: cover;
+    }
+
+    .features .features-box{
+        margin-left: 10%;
+    }
+
+    .features .features-box{
+        width: 28%;
+    }
+
+    .designed .text-column{
+        width: 24%;
+    }
+
+    
+
+    .download-app .download-image{
+        width: 70%;
+    }
+
+    footer {
+        margin-top: -4%;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .main-section{
+        height: 90vh;
+    }
+
+   
+
+    .features .features-box{
+        width: 25%;
+    }
+    .designed .text-column{
+        width: 21%;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    header #mobile-menu{
+        display: block;
+    }
+
+    header nav ul li{
+        display: block;
+    }
+
+    header nav{
+    position: fixed;
+    top: 10%;
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+    display: none;
+    height: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+
+    .main-section {
+        margin-top: 30px;
+        height: auto;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+    .main-section .container{
+        flex-direction: column;
+    }
+
+    .main-section .container .box{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main-section .box h1{
+        font-size: 40px;
+    }
+
+    .main-section .box .button-group{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .main-section .box .button-group button{
+        margin-bottom: 20px;
+    }
+    .main-section .box .button-group a{
+        padding-left: 0px;
+    }
+
+    .main-section .box .choice-app{
+        width: 100%;
+        height: 50px;
+    }
+
+
+
+    .main-section .choice-app p{
+        font-size: 16px;
+    }
+
+    .main-section .box .icon-box{
+        height: 50px;
+    }
+
+    .main-section .box .icon-box img{
+        padding-top: 15px;
+    }
+
+    .company{
+        padding-bottom:0px;
+    }
+
+    .company .company-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: initial;
+    }
+
+    .company .company-box div{
+        width: 50%;
+    }
+    .company .company-box img {
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    .company .company-box img:last-child{
+        display: block;
+    }
+
+    .features{
+        flex-direction: column;
+        width: 80%;
+    }
+    .features .image-box img{
+        width: 100%;
+    }
+
+    .features .features-box{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .features .features-box h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .features .features-box .item-box .item-description{
+        padding-left:10px;
+    }
+
+    .features .features-box .item-box .item-description h4,.features .features-box p 
+        {
+        text-align: center;
+    }
+
+    .smart-jackpots .text-row, .smart-jackpots .items-row{
+        flex-direction: column;
+    }
+
+    .smart-jackpots .text-row h3{
+        font-size: 30px;
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .smart-jackpots .items-row .item{
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .designed{
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .designed img{
+        width: 100%;
+    }
+    .designed .text-column {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+
+    }
+
+        
+    .designed div{
+        width: 100%;
+    }
+
+    .designed .text-column h3,.choose-app h3{
+        font-size: 30px;
+    }
+
+    .choose-app{
+        width: 80%;
+    }
+
+    .choose-app .choose-app-heading{
+        width: 100%;
+    }
+
+    .choose-app .items{
+        flex-direction: column;
+    }
+
+    .choose-app .items .item{
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 40px;
+    }
+
+    .choose-app p{
+        margin-bottom: 50px;
+    }
+
+    .ultimate-features, .ultimate-features .items{
+        flex-direction: column;
+    }
+    .ultimate-features .text-column{
+        width: 80%;
+        padding-left: 0px;
+        margin-bottom: 40px;
+    }
+    .ultimate-features .items .item, .ultimate-features .text-column .text-box, .ultimate-features .image-column{
+        width: 100%;
+    }
+
+    .ultimate-features .items .item{
+        padding-right: 0px;
+    }
+    .ultimate-features h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .ultimate-features .text-box p{
+        text-align: center;
+    }
+
+    .pricing{
+        padding-bottom: 0px;
+    }
+    .pricing .pricing-heading{
+        width: 100%;
+    }
+    .pricing h3 {
+        font-size: 30px;
+    }
+    .pricing .pricing-plans {
+        flex-direction: column;
+    }
+
+    .pricing .pricing-plans .plan{
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+
+    .testimonial{
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .testimonial .text-box h3{
+        font-size: 30px;
+    }
+    .testimonial .image-box{
+        width: 100%;
+    }
+
+    .testimonial .text-box{
+        width: 80%;
+    margin-top: 45px;
+    }
+
+    .testimonial .testimonial-author {
+        flex-direction: column;
+    }
+
+    .testimonial .testimonial-author .arrows{
+        margin-top: 20px;
+    }
+
+    .faq{
+        width: 80%;
+    }
+
+    .faq .faq-heading{
+        width: 100%;
+    }
+
+    .faq h3{
+        font-size:30px;
+    }
+    .download-app{
+        flex-direction: column;
+    }
+
+    .download-app h3{
+        font-size: 40px;
+    }
+
+     .download-app .download-image{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .download-app .download-text{
+        width: 80%;
+        margin-left:0px;
+       
+    }
+
+    .download-app .image-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .download-app .image-box img{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    footer ul li{
+        display: block;
+    }
+
+    footer p{
+        text-align: center;
+    }
+  }
+
+
+  @media only screen and (max-width: 420px) {
+    
+
+    .company .company-box div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .features .features-box .item-box{
+        flex-direction: column;
+    }
+
+    .features .features-box .item-box .item-description{
+        padding-left:0px;
+    }
+  }
